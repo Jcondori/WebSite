@@ -72,8 +72,8 @@
                     <ul id="nav" class="nav navbar-nav">
                         <li><a href="#body">Inicio</a></li>
                         <li><a href="#service">Nosotros</a></li>
-                        <li><a href="#portfolio">portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#portfolio">Galería</a></li>
+                        <li><a href="#social">Equipo</a></li>
                     </ul>
                 </nav>
                 <!-- /main nav -->
@@ -210,8 +210,7 @@
                     <div class="row">
 
                         <div class="sec-title text-center wow animated fadeInDown">
-                            <h2>FEATURED PROJECTS</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h2>Galería</h2>
                         </div>
 
 
@@ -301,14 +300,25 @@
                         <div class="row">
 
                             <div class="sec-title text-center white wow animated fadeInDown">
-                                <h2>FOLLOW US</h2>
-                                <p>Beautifully simple follow buttons to help you get followers on</p>
+                                <h2>Comisión de la Juventud</h2>
                             </div>
 
                             <ul class="social-button">
-                                <li class="wow animated zoomIn"><img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle"></li>
-                                <li class="wow animated zoomIn"><img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle"></li>
-                                <li class="wow animated zoomIn"><img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle"></li>							
+                                <li class="wow animated zoomIn">
+                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
+                                    <h2 style="color: #FFF">Lider</h2>
+                                    <h2 style="color: #FFF">Jefatura</h2>
+                                </li>
+                                <li class="wow animated zoomIn">
+                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
+                                    <h2 style="color: #FFF">Lider</h2>
+                                    <h2 style="color: #FFF">Jefatura</h2>
+                                </li>
+                                <li class="wow animated zoomIn">
+                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
+                                    <h2 style="color: #FFF">Lider</h2>
+                                    <h2 style="color: #FFF">Jefatura</h2>
+                                </li>							
                             </ul>
 
                         </div>
