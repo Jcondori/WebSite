@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>JPJ</title>	
+        <title>Pastoral Juvenil Prelatura Yauyos</title>	
 
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
         <!-- bootstrap.min -->
         <link rel="stylesheet" href="resources/css/slit-slider.css">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="resources/css/animate.css">
+        <!--<link rel="stylesheet" href="resources/css/animate.css">-->
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="resources/css/main.css">
 
@@ -62,7 +62,7 @@
 
                     <!-- logo -->
                     <h1 class="navbar-brand">
-                        <a href="#body">Blue</a>
+                        <a href="#body">Pastoral Juvenil</a>
                     </h1>
                     <!-- /logo -->
                 </div>
@@ -70,11 +70,9 @@
                 <!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Home</a></li>
+                        <li><a href="#body">Inicio</a></li>
                         <li><a href="#service">Service</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
-                        <li><a href="#testimonials">Testimonial</a></li>
-                        <li><a href="#price">price</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -105,7 +103,7 @@
                                 <div class="caption-content">
                                     <h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>
                                     <span class="animated fadeInDown">Clean and Professional one page Template</span>
-                                    <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                    <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
                                 </div>
                             </div>
 
@@ -118,7 +116,7 @@
                                 <div class="caption-content">
                                     <h2>BLUE Onepage HTML5 Template</h2>
                                     <span>Clean and Professional one page Template</span>
-                                    <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                    <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
                                 </div>
                             </div>
 
@@ -131,7 +129,7 @@
                                 <div class="caption-content">
                                     <h2>BLUE Onepage HTML5 Template</h2>
                                     <span>Clean and Professional one page Template</span>
-                                    <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                    <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
                                 </div>
                             </div>
 
@@ -311,115 +309,6 @@
                 </div>
             </section>
             <!-- end portfolio section -->
-
-            <!-- Testimonial section -->
-            <section id="testimonials" class="parallax">
-                <div class="overlay">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="sec-title text-center white wow animated fadeInDown">
-                                <h2>What people say</h2>
-                            </div>
-
-                            <div id="testimonial" class=" wow animated fadeInUp">
-                                <div class="testimonial-item text-center">
-                                    <img src="resources/img/member-1.jpg" alt="Our Clients">
-                                    <div class="clearfix">
-                                        <span>Katty Flower</span>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-item text-center">
-                                    <img src="resources/img/member-1.jpg" alt="Our Clients">
-                                    <div class="clearfix">
-                                        <span>Katty Flower</span>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-item text-center">
-                                    <img src="resources/img/member-1.jpg" alt="Our Clients">
-                                    <div class="clearfix">
-                                        <span>Katty Flower</span>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- end Testimonial section -->
-
-            <!-- Price section -->
-            <section id="price">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="sec-title text-center wow animated fadeInDown">
-                            <h2>Price</h2>
-                            <p>Our price for your company</p>
-                        </div>
-
-                        <div class="col-md-4 wow animated fadeInUp">
-                            <div class="price-table text-center">
-                                <span>Silver</span>
-                                <div class="value">
-                                    <span>$</span>
-                                    <span>24,35</span><br>
-                                    <span>month</span>
-                                </div>
-                                <ul>
-                                    <li>No Bonus Points</li>
-                                    <li>No Bonus Points</li>
-                                    <li>No Bonus Points</li>
-                                    <li>No Bonus Points</li>
-                                    <li><a href="#">sign up</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.4s">
-                            <div class="price-table featured text-center">
-                                <span>Gold</span>
-                                <div class="value">
-                                    <span>$</span>
-                                    <span>50,00</span><br>
-                                    <span>month</span>
-                                </div>
-                                <ul>
-                                    <li>Free Trial</li>
-                                    <li>Free Trial</li>
-                                    <li>Free Trial</li>
-                                    <li>Free Trial</li>
-                                    <li><a href="#">sign up</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.8s">
-                            <div class="price-table text-center">
-                                <span>Diamond</span>
-                                <div class="value">
-                                    <span>$</span>
-                                    <span>123,12</span><br>
-                                    <span>month</span>
-                                </div>
-                                <ul>
-                                    <li>All Bonus Points</li>
-                                    <li>All Bonus Points</li>
-                                    <li>All Bonus Points</li>
-                                    <li>All Bonus Points</li>
-                                    <li><a href="#">sign up</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <!-- end Price section -->
 
             <!-- Social section -->
             <section id="social" class="parallax">
