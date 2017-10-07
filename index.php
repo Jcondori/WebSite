@@ -5,7 +5,7 @@ require 'config/datos.php';
 
 $conexion = conexion($database);
 if (!$conexion) {
-//    header('Location: error.php');
+    header('Location: error.php');
 }
 
 //$articulos = 
