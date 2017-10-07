@@ -38,11 +38,11 @@
     <body id="body">
 
         <!-- preloader -->
-<!--        <div id="preloader">
-            <div class="loder-box">
-                <div class="battery"></div>
-            </div>
-        </div>-->
+        <!--        <div id="preloader">
+                    <div class="loder-box">
+                        <div class="battery"></div>
+                    </div>
+                </div>-->
         <!-- end preloader -->
 
         <!--
@@ -71,7 +71,7 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
                         <li><a href="#body">Inicio</a></li>
-                        <li><a href="#service">Service</a></li>
+                        <li><a href="#service">Nosotros</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -170,51 +170,35 @@
                     <div class="row">
 
                         <div class="sec-title text-center">
-                            <h2 class="wow animated bounceInLeft">Service</h2>
-                            <p class="wow animated bounceInRight">The Key Features of our Job</p>
+                            <h2 class="wow animated bounceInLeft">Nosotros</h2>
+                            <p class="wow animated bounceInRight">Pastoral Juvenil Prelatura Yautos</p>
                         </div>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn">
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <i class="fa fa-home fa-3x"></i>
+                                    <i class="fa fa-location-arrow fa-3x"></i>
                                 </div>
-                                <h3>Support</h3>
+                                <h3>Misión</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <i class="fa fa-tasks fa-3x"></i>
+                                    <i class="fa fa-eye fa-3x"></i>
                                 </div>
-                                <h3>Well Documented</h3>
+                                <h3>Visión</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </div>
                         </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-clock-o fa-3x"></i>
-                                </div>
-                                <h3>Design UI/UX</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-12 col-md-offset-5 col-sm-offset-5 text-center wow animated zoomIn">
+                            <a href="#" class="btn btn-blue btn-effect">Ver más</a>
                         </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-heart fa-3x"></i>
-                                </div>
-
-                                <h3>Web Security</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>							
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
