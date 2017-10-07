@@ -11,3 +11,4 @@ $blog_config = array(
 	'carpeta_imagenes' => 'resources/img/'
 );
 
+?>
