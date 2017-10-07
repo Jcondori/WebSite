@@ -1,3 +1,4 @@
+<?php require '../config/datos.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js"> 
     <head>
@@ -16,22 +17,22 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
         <!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/font-awesome.min.css">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="resources/css/jquery.fancybox.css">
+        <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/jquery.fancybox.css">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/bootstrap.min.css">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="resources/css/owl.carousel.css">
+        <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/owl.carousel.css">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="resources/css/slit-slider.css">
+        <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/slit-slider.css">
         <!-- bootstrap.min -->
-        <!--<link rel="stylesheet" href="resources/css/animate.css">-->
+        <!--<link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/animate.css">-->
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="resources/css/main.css">
+        <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/main.css">
 
         <!-- Modernizer Script for old Browsers -->
-        <script src="resources/js/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/modernizr-2.6.2.min.js"></script>
 
     </head>
 
@@ -217,7 +218,7 @@
 
                         <ul class="project-wrapper wow animated fadeInUp">
                             <li class="portfolio-item">
-                                <img src="resources/img/portfolio/item.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
@@ -229,7 +230,7 @@
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="resources/img/portfolio/item2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
@@ -241,7 +242,7 @@
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="resources/img/portfolio/item3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
@@ -253,7 +254,7 @@
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="resources/img/portfolio/item4.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item4.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
@@ -265,7 +266,7 @@
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="resources/img/portfolio/item5.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item5.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
@@ -277,7 +278,7 @@
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="resources/img/portfolio/item6.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item6.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
@@ -397,23 +398,23 @@
         <!-- Essential jQuery Plugins
         ================================================== -->
         <!-- Main jQuery -->
-        <script src="resources/js/jquery-1.11.1.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/jquery-1.11.1.min.js"></script>
         <!-- Twitter Bootstrap -->
-        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/bootstrap.min.js"></script>
         <!-- Single Page Nav -->
-        <script src="resources/js/jquery.singlePageNav.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/jquery.singlePageNav.min.js"></script>
         <!-- jquery.fancybox.pack -->
-        <script src="resources/js/jquery.fancybox.pack.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/jquery.fancybox.pack.js"></script>
         <!-- Owl Carousel -->
-        <script src="resources/js/owl.carousel.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/owl.carousel.min.js"></script>
         <!-- jquery easing -->
-        <script src="resources/js/jquery.easing.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/jquery.easing.min.js"></script>
         <!-- Fullscreen slider -->
-        <script src="resources/js/jquery.slitslider.js"></script>
-        <script src="resources/js/jquery.ba-cond.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/jquery.slitslider.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/jquery.ba-cond.min.js"></script>
         <!-- onscroll animation -->
-        <script src="resources/js/wow.min.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/wow.min.js"></script>
         <!-- Custom Functions -->
-        <script src="resources/js/main.js"></script>
+        <script src="<?php echo RUTA; ?>/resources/js/main.js"></script>
     </body>
 </html>
