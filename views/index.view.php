@@ -95,47 +95,50 @@
 
                     <div class="sl-slider">
 
-                        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                        <?php foreach ($sliders as $slider): ?>
+                            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 
-                            <div class="bg-img bg-img-1"></div>
+                                <div class="bg-img" style="background-image: url(resources/img/slider/<?php echo $slider['image']; ?>);"></div>
 
-                            <div class="slide-caption">
-                                <div class="caption-content">
-                                    <h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>
-                                    <span class="animated fadeInDown">Clean and Professional one page Template</span>
-                                    <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
+                                <div class="slide-caption">
+                                    <div class="caption-content">
+                                        <h2 class="animated fadeInDown"><?php echo $slider['encabezado']; ?></h2>
+                                        <span class="animated fadeInDown"><?php echo $slider['subencabezado']; ?></span>
+                                        <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
+                                    </div>
                                 </div>
+
                             </div>
+                        <?php endforeach; ?>
 
-                        </div>
+                        <!--                        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                        
+                                                    <div class="bg-img bg-img-2"></div>
+                                                    <div class="slide-caption">
+                                                        <div class="caption-content">
+                                                            <h2>BLUE Onepage HTML5 Template</h2>
+                                                            <span>Clean and Professional one page Template</span>
+                                                            <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                                        </div>
+                                                    </div>
+                        
+                                                </div>-->
 
-                        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                        <!--                        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                        
+                                                    <div class="bg-img bg-img-3"></div>
+                                                    <div class="slide-caption">
+                                                        <div class="caption-content">
+                                                            <h2>BLUE Onepage HTML5 Template</h2>
+                                                            <span>Clean and Professional one page Template</span>
+                                                            <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                                        </div>
+                                                    </div>
+                        
+                                                </div>-->
 
-                            <div class="bg-img bg-img-2"></div>
-                            <div class="slide-caption">
-                                <div class="caption-content">
-                                    <h2>BLUE Onepage HTML5 Template</h2>
-                                    <span>Clean and Professional one page Template</span>
-                                    <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-
-                            <div class="bg-img bg-img-3"></div>
-                            <div class="slide-caption">
-                                <div class="caption-content">
-                                    <h2>BLUE Onepage HTML5 Template</h2>
-                                    <span>Clean and Professional one page Template</span>
-                                    <!--<a href="#" class="btn btn-blue btn-effect">Join US</a>-->
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div><!-- /sl-slider -->
+                    </div>
+                    <!-- /sl-slider -->
 
                     <!-- 
                     <nav id="nav-arrows" class="nav-arrows">
