@@ -14,7 +14,7 @@
         ================================================== -->
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo RUTA; ?>/resources/img/pigeon.png">
         <!-- Fontawesome Icon font -->
         <link rel="stylesheet" href="<?php echo RUTA; ?>/resources/css/font-awesome.min.css">
         <!-- bootstrap.min -->
@@ -184,7 +184,8 @@
                                     <i class="fa fa-location-arrow fa-3x"></i>
                                 </div>
                                 <h3>Misión</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p>Lograr que los jóvenes sean partícipes en la formación de evangelización
+                                    íntegra, de la organización y capacitación de estructuras pastorales de la Prelatura de Yauyos.</p>
                             </div>
                         </div>
 
@@ -194,7 +195,8 @@
                                     <i class="fa fa-eye fa-3x"></i>
                                 </div>
                                 <h3>Visión</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p>Ser una comunidad de agentes de pastoral que ofrece a los jóvenes una formación 
+                                    íntegra haciéndolos protagonistas de la construcción del Reino de Dios.</p>
                             </div>
                         </div>
                     </div>
@@ -402,7 +404,7 @@
                             </ul>
                         </div>
 
-                        <p>Copyright &copy; 2014-2015 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> </p>
+                        <p>Copyright &copy; 2017 Powered by <a href="http://developerdatabase.hol.es/" target="_blank">Servifast</a> </p>
                     </div>
                 </div>
             </div>
