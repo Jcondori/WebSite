@@ -310,21 +310,24 @@
                             </div>
 
                             <ul class="social-button">
-                                <li class="wow animated zoomIn">
-                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
-                                    <h2 style="color: #FFF">Lider</h2>
-                                    <h2 style="color: #FFF">Jefatura</h2>
-                                </li>
-                                <li class="wow animated zoomIn">
-                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
-                                    <h2 style="color: #FFF">Lider</h2>
-                                    <h2 style="color: #FFF">Jefatura</h2>
-                                </li>
-                                <li class="wow animated zoomIn">
-                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
-                                    <h2 style="color: #FFF">Lider</h2>
-                                    <h2 style="color: #FFF">Jefatura</h2>
-                                </li>							
+                                <?php foreach ($members as $member): ?>
+                                    <li class="wow animated zoomIn">
+                                        <img src="resources/img/<?php echo $member['image']; ?>" class="img img-circle img-responsive">
+                                        <h2 style="color: #FFF"><?php echo $member['nombre']; ?></h2>
+<!--                                        <h2 style="color: #FFF"><?php echo $member['cargo']; ?></h2>
+                                        <h2 style="color: #FFF"><?php echo $member['area']; ?></h2>-->
+                                    </li>
+                                <?php endforeach; ?>
+                                <!--                                <li class="wow animated zoomIn">
+                                                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
+                                                                    <h2 style="color: #FFF">Lider</h2>
+                                                                    <h2 style="color: #FFF">Jefatura</h2>
+                                                                </li>
+                                                                <li class="wow animated zoomIn">
+                                                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
+                                                                    <h2 style="color: #FFF">Lider</h2>
+                                                                    <h2 style="color: #FFF">Jefatura</h2>
+                                                                </li>							-->
                             </ul>
 
                         </div>

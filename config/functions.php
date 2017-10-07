@@ -24,7 +24,7 @@ function obtener_slider($conexion) {
 }
 
 function obtener_member($conexion) {
-    $sentencia = $conexion->prepare("Select * from miembros");
+    $sentencia = $conexion->prepare("Select * from miembros LIMIT 3");
     $sentencia->execute();
     return $sentencia->fetchAll();
 }
