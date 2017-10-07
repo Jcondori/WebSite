@@ -306,9 +306,9 @@
                             </div>
 
                             <ul class="social-button">
-                                <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
-                                <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-                                <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>							
+                                <li class="wow animated zoomIn"><img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle"></li>
+                                <li class="wow animated zoomIn"><img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle"></li>
+                                <li class="wow animated zoomIn"><img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle"></li>							
                             </ul>
 
                         </div>
