@@ -8,6 +8,6 @@ if (!$conexion) {
     header('Location: error.php');
 }
 
-//$articulos = 
+$slider = obtener_slider($conexion);
 
 require 'views/index.view.php';

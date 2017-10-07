@@ -160,7 +160,8 @@
                         <span></span>
                     </nav>
 
-                </div><!-- /slider-wrapper -->
+                </div>
+                <!-- /slider-wrapper -->
             </section>
 
 
