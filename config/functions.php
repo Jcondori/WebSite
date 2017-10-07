@@ -23,4 +23,10 @@ function obtener_slider($conexion) {
     return $sentencia->fetchAll();
 }
 
+function obtener_member($conexion) {
+    $sentencia = $conexion->prepare("Select * from miembros");
+    $sentencia->execute();
+    return $sentencia->fetchAll();
+}
+
 ?>

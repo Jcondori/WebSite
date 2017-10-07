@@ -9,5 +9,6 @@ if (!$conexion) {
 }
 
 $sliders = obtener_slider($conexion);
+$members = obtener_member($conexion);
 
 require 'views/index.view.php';
