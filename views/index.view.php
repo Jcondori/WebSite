@@ -1,4 +1,3 @@
-<?php require '../config/datos.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js"> 
     <head>

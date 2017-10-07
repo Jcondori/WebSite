@@ -2,10 +2,11 @@
 
 function conexion($data) {
     try {
-        $conexion = new PDO('mysql:host=localhost ; dbname=' . $data['basedatos'], $data['usuario'], $data['pass']);
+        $conexion = new PDO('mysql:host=localhost;dbname='.$data['basedatos'],$data['usuario'],$data['pass']);
         return $conexion;
     } catch (PDOException $e) {
-        return $e;
+        print_r($e);
+        return false;
     }
 }
 
