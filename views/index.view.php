@@ -3,6 +3,7 @@
     <head>
         <!-- meta character set -->
         <meta charset="utf-8">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Pastoral Juvenil Prelatura Yauyos</title>	
