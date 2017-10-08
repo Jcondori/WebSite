@@ -312,24 +312,13 @@
                             <ul class="social-button">
                                 <?php foreach ($members as $member): ?>
                                     <li class="wow animated zoomIn">
-                                        <img src="resources/img/<?php echo $member['image']; ?>" class="img img-circle img-responsive">
+                                        <img src="resources/img/<?php echo $member['image']; ?>" class="img img-circle">
                                         <h2 style="color: #FFF"><?php echo $member['nombre']; ?></h2>
-<!--                                        <h2 style="color: #FFF"><?php echo $member['cargo']; ?></h2>
-                                        <h2 style="color: #FFF"><?php echo $member['area']; ?></h2>-->
+                                        <h2 style="color: #FFF"><?php echo $member['cargo']; ?></h2>
+                                        <h2 style="color: #FFF"><?php echo $member['area']; ?></h2>
                                     </li>
-                                <?php endforeach; ?>
-                                <!--                                <li class="wow animated zoomIn">
-                                                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
-                                                                    <h2 style="color: #FFF">Lider</h2>
-                                                                    <h2 style="color: #FFF">Jefatura</h2>
-                                                                </li>
-                                                                <li class="wow animated zoomIn">
-                                                                    <img src="<?php echo RUTA; ?>/resources/img/member-1.jpg" class="img img-circle">
-                                                                    <h2 style="color: #FFF">Lider</h2>
-                                                                    <h2 style="color: #FFF">Jefatura</h2>
-                                                                </li>							-->
+                                <?php endforeach; ?>				
                             </ul>
-
                         </div>
                     </div>
                 </div>
@@ -429,6 +418,7 @@
         <script src="<?php echo RUTA; ?>/resources/js/jquery.easing.min.js"></script>
         <!-- Fullscreen slider -->
         <script src="<?php echo RUTA; ?>/resources/js/jquery.slitslider.js"></script>
+
         <script src="<?php echo RUTA; ?>/resources/js/jquery.ba-cond.min.js"></script>
         <!-- onscroll animation -->
         <script src="<?php echo RUTA; ?>/resources/js/wow.min.js"></script>
