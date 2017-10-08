@@ -1,5 +1,7 @@
 <?php
 
+header("Content-Type: text/html;charset=utf-8");
+
 require 'config/functions.php';
 require 'config/datos.php';
 

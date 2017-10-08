@@ -3,6 +3,8 @@
 function conexion($data) {
     try {
         $conexion = new PDO('mysql:host=localhost;dbname='.$data['basedatos'],$data['usuario'],$data['pass']);
+        $sensencia = $conexion->prepare("SET NAMES 'utf8'");
+        $sensencia->execute();
         return $conexion;
     } catch (PDOException $e) {
         print_r($e);
