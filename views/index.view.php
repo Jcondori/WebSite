@@ -223,73 +223,73 @@
 
                         <ul class="project-wrapper wow animated fadeInUp">
                             <li class="portfolio-item">
-                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                                <img src="<?php echo RUTA; ?>/resources/img/slider/slider1.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
                             </figcaption>
                             <ul class="external">
-                                <li><a class="fancybox" title="Araund The world" data-fancybox-group="works" href="resources/img/portfolio/item.jpg"><i class="fa fa-search"></i></a></li>
+                                <li><a class="fancybox" title="Araund The world" data-fancybox-group="works" href="<?php echo RUTA; ?>/resources/img/slider/slider1.jpg"><i class="fa fa-search"></i></a></li>
                                 <li><a href=""><i class="fa fa-link"></i></a></li>
                             </ul>
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/slider/slider1.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
                             </figcaption>
                             <ul class="external">
-                                <li><a class="fancybox" title="Wall street" href="resources/img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
+                                <li><a class="fancybox" title="Wall street" href="<?php echo RUTA; ?>/resources/img/slider/slider1.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
                                 <li><a href=""><i class="fa fa-link"></i></a></li>
                             </ul>
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/slider/slider2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
                             </figcaption>
                             <ul class="external">
-                                <li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="resources/img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
+                                <li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="<?php echo RUTA; ?>/resources/img/slider/slider2.jpg"><i class="fa fa-search"></i></a></li>
                                 <li><a href=""><i class="fa fa-link"></i></a></li>
                             </ul>
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item4.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+                                <img src="<?php echo RUTA; ?>/resources/img/slider/slider3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
                             </figcaption>
                             <ul class="external">
-                                <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="resources/img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>
+                                <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="<?php echo RUTA; ?>/resources/img/slider/slider3.jpg"><i class="fa fa-search"></i></a></li>
                                 <li><a href=""><i class="fa fa-link"></i></a></li>
                             </ul>
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item5.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/slider/slider1.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
                             </figcaption>
                             <ul class="external">
-                                <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="resources/img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li>
+                                <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="<?php echo RUTA; ?>/resources/img/slider/slider1.jpg"><i class="fa fa-search"></i></a></li>
                                 <li><a href=""><i class="fa fa-link"></i></a></li>
                             </ul>
                             </li>
 
                             <li class="portfolio-item">
-                                <img src="<?php echo RUTA; ?>/resources/img/portfolio/item6.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                                <img src="<?php echo RUTA; ?>/resources/img/slider/slider2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                             <figcaption class="mask">
                                 <h3>Wall street</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
                             </figcaption>
                             <ul class="external">
-                                <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="resources/img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li>
+                                <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="<?php echo RUTA; ?>/resources/img/slider/slider2.jpg"><i class="fa fa-search"></i></a></li>
                                 <li><a href=""><i class="fa fa-link"></i></a></li>
                             </ul>
                             </li>
@@ -313,10 +313,10 @@
                             <ul class="social-button">
                                 <?php foreach ($members as $member): ?>
                                     <li class="wow animated zoomIn">
-                                        <img src="resources/img/<?php echo $member['image']; ?>" class="img img-circle">
-                                        <h2 style="color: #FFF"><?php echo $member['nombre']; ?></h2>
-                                        <h2 style="color: #FFF"><?php echo $member['cargo']; ?></h2>
-                                        <h2 style="color: #FFF"><?php echo $member['area']; ?></h2>
+                                        <img src="resources/img/<?php echo $member['image']; ?>" class="img img-circle" width="128" height="128">
+                                        <h3 style="color: #FFF"><?php echo $member['nombre']; ?></h3>
+                                        <h3 style="color: #FFF"><?php echo $member['cargo']; ?></h3>
+                                        <h3 style="color: #FFF"><?php echo $member['area']; ?></h3>
                                     </li>
                                 <?php endforeach; ?>				
                             </ul>
@@ -332,12 +332,12 @@
                     <div class="row">
 
                         <div class="sec-title text-center wow animated fadeInDown">
-                            <h2>Contact</h2>
-                            <p>Leave a Message</p>
+                            <h2>Eventos</h2>
+                            <p>Algunos de nuestros eventos</p>
                         </div>
 
 
-                        <div class="col-md-7 contact-form wow animated fadeInLeft">
+<!--                        <div class="col-md-7 contact-form wow animated fadeInLeft">
                             <form action="#" method="post">
                                 <div class="input-field">
                                     <input type="text" name="name" class="form-control" placeholder="Your Name...">
@@ -362,7 +362,7 @@
                                 <p><i class="fa fa-phone"></i>Phone: (415) 124-5678 </p>
                                 <p><i class="fa fa-envelope"></i>website@yourname.com</p>
                             </address>
-                        </div>
+                        </div>-->
 
                     </div>
                 </div>
@@ -376,23 +376,23 @@
                 <div class="row text-center">
                     <div class="footer-content">
                         <div class="wow animated fadeInDown">
-                            <p>newsletter signup</p>
-                            <p>Get Cool Stuff! We hate spam!</p>
+                            <p>Pastoral Juvenil</p>
+                            <p></p>
                         </div>
-                        <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+<!--                        <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
                             <div class="input-field">
                                 <input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
                                 <button type="submit" class="submit-icon">
                                     <i class="fa fa-paper-plane fa-lg"></i>
                                 </button>
                             </div>
-                        </form>
+                        </form>-->
                         <div class="footer-social">
                             <ul>
-                                <li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+                                <li class="wow animated zoomIn"><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
                                 <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
                                 <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
-                                <li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
+                                <!--<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>-->
                                 <li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
                             </ul>
                         </div>
