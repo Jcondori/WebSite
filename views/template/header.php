@@ -81,6 +81,7 @@
                     <!-- Sidebar navigation-->
                     <nav class="sidebar-nav">
                         <ul id="sidebarnav">
+                            <li class="nav-small-cap"></li>
                             <li> 
                                 <a class="waves-effect waves-dark" href="admin.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
                             </li>
@@ -93,7 +94,7 @@
                                 <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Blog</span></a>
                             </li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Galería</span></a>
+                                <a class="waves-effect waves-dark" href="galeria.php" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Galería</span></a>
                             </li>
                             <li> 
                                 <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-star-circle"></i><span class="hide-menu">Eventos</span></a>
