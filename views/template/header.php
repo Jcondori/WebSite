@@ -82,29 +82,29 @@
                     <nav class="sidebar-nav">
                         <ul id="sidebarnav">
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
+                                <a class="waves-effect waves-dark" href="admin.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
                             </li>
                             
                             <li class="nav-small-cap">Administrar</li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Paginas web</span></a>
+                                <a class="waves-effect waves-dark" href="webpage.php" aria-expanded="false"><i class="mdi mdi-web"></i><span class="hide-menu">Web page</span></a>
                             </li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Blog</span></a>
+                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-library-books"></i><span class="hide-menu">Blog</span></a>
                             </li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Galería</span></a>
+                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Galería</span></a>
                             </li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Eventos</span></a>
+                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-star-circle"></i><span class="hide-menu">Eventos</span></a>
                             </li>
                             
                             <li class="nav-small-cap">Configuración</li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Usuarios</span></a>
+                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-account-circle"></i><span class="hide-menu">Usuarios</span></a>
                             </li>
                             <li> 
-                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Ajustes</span></a>
+                                <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-settings"></i><span class="hide-menu">Ajustes</span></a>
                             </li>
                         </ul>
                     </nav>
