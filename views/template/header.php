@@ -7,14 +7,14 @@
         <!-- Tell the browser to be responsive to screen width -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon icon -->
-        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo RUTA; ?>/resources/img/pigeon.png">
         <title>Panel de Administración</title>
         <!-- Bootstrap Core CSS -->
-        <link href="../../resources/css/bootstrap4.css" rel="stylesheet">
+        <link href="<?php echo RUTA; ?>/resources/css/bootstrap4.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link href="../../resources/css/style.css" rel="stylesheet">
+        <link href="<?php echo RUTA; ?>/resources/css/style.css" rel="stylesheet">
         <!-- You can change the theme colors from here -->
-        <link href="../../resources/css/blue.css" id="theme" rel="stylesheet">
+        <link href="<?php echo RUTA; ?>/resources/css/blue.css" id="theme" rel="stylesheet">
     </head>
 
     <body class="fix-header fix-sidebar card-no-border">
@@ -26,7 +26,7 @@
                             <!-- Logo icon --><b>
                                 <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                                 <!-- Dark Logo icon -->
-                                <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <img src="<?php echo RUTA; ?>/resources/img/pigeon.png" alt="homepage" style="width: 50px; height: 50px" class="dark-logo" />
                                 <span>Admin</span>
                                 <!-- Light Logo icon -->
                             </b>
@@ -103,27 +103,4 @@
             </aside>
 
             <div class="page-wrapper">
-
-                <footer class="footer"> © 2017 Powered by Servifast</footer>
-            </div>
-        </div>
-
-        <script src="../../resources/js/jquery-1.11.1.min.js"></script>
-        <!-- Bootstrap tether Core JavaScript -->
-        <script src="../../resources/js/popper.min.js"></script>
-        <script src="../../resources/js/bootstrap4.min.js"></script>
-        <!-- slimscrollbar scrollbar JavaScript -->
-        <script src="../../resources/js/jquery.slimscroll.js"></script>
-        <!--Wave Effects -->
-        <script src="../../resources/js/waves.js"></script>
-        <!--Menu sidebar -->
-        <script src="../../resources/js/sidebarmenu.js"></script>
-        <!--stickey kit -->
-        <script src="../../resources/js/sticky-kit.min.js"></script>
-        <!--Custom JavaScript -->
-        <script src="../../resources/js/custom.min.js"></script>
-        <!-- Style switcher -->
-        <script src="../../resources/js/jQuery.style.switcher.js"></script>
-    </body>
-
-</html>
+                
